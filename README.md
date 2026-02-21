@@ -96,11 +96,13 @@ Then enter:
 - Polling frequency  
 - Select coils/registers to monitor  
 
+---
+
 ### 🧠 Memory Map
 | Type | Address | Description            |
 |------|---------|------------------------|
-| HR   | 4       | Lux Threshold          |
-| HR   | 6       | Ambient Light Sensor   |
+| Holding Register   | 4       | Lux Threshold          |
+| Holding Register   | 6       | Ambient Light Sensor   |
 | Coil | 3       | Street Light Status    |
 | Coil | 4       | Manual Override        |
 
