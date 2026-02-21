@@ -57,13 +57,7 @@ pip install pyserial-asyncio
 Step 1: Start the Modbus Server + SCADA
 python "Smart Street Light Controller.py"
 
-This will:
-
-Start the Modbus TCP server on port 502
-
-Launch the SCADA HMI
-
-Simulate the ambient light sensor
+This will: Start the Modbus TCP server on port 502, launch the SCADA HMI simulate the ambient light sensor
 
 Step 2: Run CLI Modbus Client
 python Mbap_client.py <SERVER_IP>
@@ -74,22 +68,18 @@ python Mbap_client.py 127.0.0.1
 Step 3: Run GUI Polling Tool
 python Mbap_Polling_Tool.py
 
-Then enter:
-
-Target IP
-
-Port (default 502)
-
-Polling frequency
+Then enter: Target IP, Port (default 502), Polling frequency
 
 Select coils/registers to monitor
 
 ### 🧠 Memory Map
-Type	Address	Description
-HR	4	Lux Threshold
-HR	6	Ambient Light Sensor
-Coil	3	Street Light Status
-Coil	4	Manual Override
+| Type | Address | Description            |
+|------|---------|------------------------|
+| HR   | 4       | Lux Threshold          |
+| HR   | 6       | Ambient Light Sensor   |
+| Coil | 3       | Street Light Status    |
+| Coil | 4       | Manual Override        |
+
 ### 🎯 Learning Objectives
 
 Understand Modbus TCP communication
