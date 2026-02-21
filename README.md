@@ -1,61 +1,57 @@
-🔐 Modbus TCP Security Testing Lab
+# 🔐 Modbus TCP Security Testing Lab
 
 A lightweight Modbus TCP lab environment built for learning, research, and controlled security testing.
 
 This repository simulates a small Industrial Control System (ICS) environment and provides tools to interact with it using Modbus TCP.
 
-📂 Repository Contents
-1️⃣ Smart Street Light Controller.py
+---
 
+## 📂 Repository Contents
+
+### 1️⃣ Smart Street Light Controller.py  
 Simulated Modbus TCP Server (PLC) with SCADA-style HMI interface.
 
-2️⃣ Mbap_client.py
-
+### 2️⃣ Mbap_client.py  
 Command-line Modbus TCP client for reading and writing coils and registers.
 
-3️⃣ Mbap_Polling_Tool.py
-
+### 3️⃣ Mbap_Polling_Tool.py  
 GUI-based Modbus polling tool for continuous monitoring.
 
-🏗 Project Overview
+---
+
+## 🏗 Project Overview
 
 This lab simulates:
 
-Modbus TCP Server (Port 502)
+- Modbus TCP Server (Port 502)
+- Holding Registers (HR)
+- Coils
+- Ambient light (lux) sensor simulation
+- Threshold-based automation logic
+- Manual override functionality
+- SCADA monitoring interface
 
-Holding Registers (HR)
+Designed for:
 
-Coils
+- Modbus protocol learning  
+- ICS/OT lab simulation  
+- Security research  
+- Controlled penetration testing practice  
 
-Ambient light (lux) sensor simulation
+---
 
-Threshold-based automation logic
+## ⚙️ Requirements
 
-Manual override functionality
-
-SCADA monitoring interface
-
-It is designed for:
-
-Modbus protocol learning
-
-ICS/OT lab simulation
-
-Security research
-
-Controlled penetration testing practice
-
-⚙️ Requirements
-
-Python 3.9+
-
-pymodbus
-
-tkinter (usually preinstalled with Python)
+- Python 3.9+
+- pymodbus
+- tkinter (usually preinstalled with Python)
 
 Install dependency:
 
+```bash
 pip install pymodbus
+
+
 🚀 How to Run
 Step 1: Start the Modbus Server + SCADA
 python "Smart Street Light Controller.py"
