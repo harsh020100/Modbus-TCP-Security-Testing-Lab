@@ -67,7 +67,6 @@ This will:
 - Launch the SCADA HMI  
 - Simulate the ambient light sensor  
 
----
 
 ### Step 2: Run CLI Modbus Client
 
@@ -80,8 +79,6 @@ Example:
 ```bash
 python Mbap_client.py 127.0.0.1
 ```
-
----
 
 ### Step 3: Run GUI Polling Tool
 
