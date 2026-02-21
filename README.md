@@ -105,29 +105,25 @@ Then enter:
 
 ### 🎯 Learning Objectives
 
-Understand Modbus TCP communication
-
-Interact with coils and holding registers
-
-Observe automation logic
-
-Practice protocol interaction
-
-Analyze potential security weaknesses in Modbus
+- Understand Modbus TCP communication  
+- Interact with coils and holding registers  
+- Observe automation logic  
+- Practice protocol interaction  
+- Analyze potential security weaknesses in Modbus  
 
 ### ⚠️ Disclaimer
 
 This project is intended strictly for:
 
-Educational purposes
+- Educational purposes  
+- Security research  
+- Testing in controlled lab environments  
 
-Security research
+Do **NOT** use this code against systems without proper authorization.
 
-Testing in controlled lab environments
-
-Do NOT use this code against systems without proper authorization.
+---
 
 ### 👨‍💻 Author
 
-Harsh Srivastava
+**Harsh Srivastava**  
 IoT & OT Security Research
