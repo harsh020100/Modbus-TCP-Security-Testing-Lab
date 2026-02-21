@@ -50,9 +50,10 @@ Install dependency:
 
 ```bash
 pip install pymodbus
+pip install pyserial-asyncio
+```
 
-
-🚀 How to Run
+### 🚀 How to Run
 Step 1: Start the Modbus Server + SCADA
 python "Smart Street Light Controller.py"
 
@@ -83,13 +84,13 @@ Polling frequency
 
 Select coils/registers to monitor
 
-🧠 Memory Map
+### 🧠 Memory Map
 Type	Address	Description
 HR	4	Lux Threshold
 HR	6	Ambient Light Sensor
 Coil	3	Street Light Status
 Coil	4	Manual Override
-🎯 Learning Objectives
+### 🎯 Learning Objectives
 
 Understand Modbus TCP communication
 
@@ -101,7 +102,7 @@ Practice protocol interaction
 
 Analyze potential security weaknesses in Modbus
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 This project is intended strictly for:
 
@@ -113,7 +114,7 @@ Testing in controlled lab environments
 
 Do NOT use this code against systems without proper authorization.
 
-👨‍💻 Author
+### 👨‍💻 Author
 
 Harsh Srivastava
 IoT & OT Security Research
