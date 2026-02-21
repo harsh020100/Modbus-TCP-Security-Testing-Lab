@@ -103,6 +103,7 @@ Then enter:
 | Coil | 3       | Street Light Status    |
 | Coil | 4       | Manual Override        |
 
+---
 ### 🎯 Learning Objectives
 
 - Understand Modbus TCP communication  
@@ -110,6 +111,8 @@ Then enter:
 - Observe automation logic  
 - Practice protocol interaction  
 - Analyze potential security weaknesses in Modbus  
+
+---
 
 ### ⚠️ Disclaimer
 
@@ -127,4 +130,4 @@ Do **NOT** use this code against systems without proper authorization.
 
 **Harsh Srivastava**  
 IoT & OT Security Research\
-[www.harshsecurity.com](https://www.harshsecurity.com/)
+[https://www.harshsecurity.com](https://www.harshsecurity.com/)
