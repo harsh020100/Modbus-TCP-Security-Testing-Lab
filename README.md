@@ -42,7 +42,7 @@ Designed for:
 
 ## ⚙️ Requirements
 
-- Python 3.9+
+- Python
 - pymodbus
 - tkinter (usually preinstalled with Python)
 
